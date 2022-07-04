@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: #F9F2ED;
+    width: calc(100% - 33px);
+  }
+  
+  canvas {
+    position: absolute;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .result-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .result-container > div {
+    font-size: 1.6rem;
+    padding: 0.2rem;
+    margin: 1px 0;
+    color: #448EF6;
+    text-transform: capitalize;
+  }
+  #age {
+    font-weight: bold;
+    margin: 1px;
+  }
+  #emotion {
+    margin: 1px;
+    font-weight: bold;
+  }
+  #gender {
+    font-weight: bold;
+    margin: 1px;
+  }
+  video {
+    width: 100%;
+  }
+  header {
+    background: #F47645;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
